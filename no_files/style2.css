@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fdd2d3; /* Pale pinkish-red background */
+  }
+
+  #qt1{
+    font-size: 30px; /* Adjust font size as needed */
+    font-weight: 600;
+    position: absolute;
+    top: 10%;
+    /* left: 40%; */
+    color: #fe9a9a; /* Red color */
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  #qt2{
+    font-size: 40px; /* Adjust font size as needed */
+    font-weight: 600;
+    position: absolute;
+    top: 20%;
+    /* left: 40%; */
+    color: #fd5353;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  #qt4{
+    font-size: 50px; /* Adjust font size as needed */
+    font-weight: 600;
+    position: absolute;
+    top: 30%;
+    /* left: 40%; */
+    color: #ff1414;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+  .content{
+    position: absolute;
+    top: 50%;
+    width: 230px;
+    height: 230px;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  #qt3{
+    font-size: 35px; /* Adjust font size as needed */
+    color: #f87878;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+  } 
+  
+  
+  
+  #yesButton{
+    position: relative;
+    top: 0%;
+    width: 100%;
+    border-radius: 25px;
+   }
+
+   #anim1{
+    position: relative;
+    width: 180px;
+    left: 25%;
+    top: -50px;
+   }
+
+   #loading-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fab6b6;
+    text-align: center;
+    padding-top: 20%;
+    z-index: 1000;
+    
+}
+
+  #load-content {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #load{
+    width: 100%;
+  }
+  #catgif{
+    width: 80%;
+    position: relative;
+    top: 22%;
+    right: 30px;
+  }
+
+  @keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.blinking-word {
+    font-size: 28px; /* Adjust font size as needed */
+    position: absolute;
+    top: 75%;
+    color: white;
+    font-weight: 600;
+    animation: blink 1.5s infinite; 
+}
+
+  #text1{
+    font-size: 28px; /* Adjust font size as needed */
+    color: #f87878;
+    font-weight: 600;
+  }
+
+  #text2{
+    font-size: 50px; /* Adjust font size as needed */
+    color: #fb4c4c;
+    font-weight: 600;
+    position: absolute;
+    top: 22%;
+  }

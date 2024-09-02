@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fdd2d3; /* Pale pinkish-red background */
+  }
+
+  #content{
+    position: absolute;
+    top: 8%;
+    width: 100%;
+    height: 60%;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  #sp1{
+    font-size: 32px; /* Adjust font size as needed */
+    position: absolute;
+    top: 0%;
+    color: #f55d5d;
+    font-weight: 500;
+    padding: 0px;
+  }
+
+  #sp3{
+    font-size: 24px; /* Adjust font size as needed */
+    width: 98%;
+    position: absolute;
+    top: 15%;
+    color: #141414a8;
+    font-weight: 500;
+    padding: 0px;
+  }
+  #sp2{
+    font-size: 45px; /* Adjust font size as needed */
+    position: absolute;
+    top: 40%;
+    color: #fe2c2c;
+    font-weight: 600;
+    padding: 0px;
+  }
+
+  #img1{
+    position: absolute;
+    top: 85%;
+  }
+
+  #sp4{
+    font-size: 20px; /* Adjust font size as needed */
+    position: absolute;
+    top: 89%;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 0;
+  }
+
+  #img2{
+    width: 100px;
+    position: absolute;
+    top: 90%;
+  }
+
+
+  #ver{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    top: 105%;
+  }
+
+  #sp5{
+    font-size: 20px; /* Adjust font size as needed */
+    width: 98%;
+    text-align:center;
+    /* position: absolute;
+    top: 15%; */
+    color: #141414a8;
+    font-weight: 500;
+    padding: 0px;
+  }
+
+  #sp6{
+    font-size: 40px; /* Adjust font size as needed */
+    width: 98%;
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-weight: 500;
+    padding: 0px;
+  }
+  #img3_1{
+    width: 200px;
+    height: 300px;
+    margin-bottom: 20px;
+    border:6px solid #c92b3a ;
+  }
+
+  #img3_2{
+    width: 85%;
+    height: 9%;
+    margin-bottom: 20px;
+    border:6px solid #c92b3a ;
+  }
+
+  #img3_3{
+    width: 85%;
+    height: 10%;
+    margin-bottom: 20px;
+    border:6px solid #c92b3a ;
+  }
+
+  #img3_4{
+    width: 85%;
+    height: 10%;
+    margin-bottom: 20px;
+    border:6px solid #c92b3a ;
+  }
+
+  #img3_5{
+    width: 85%;
+    height: 100%;
+    margin-bottom: 20px;
+    border:6px solid #c92b3a ;
+  }
+
+  #img3_6{
+    width: 200px;
+    height: 300px;
+    margin-bottom: 20px;
+    border:6px solid #c92b3a ;
+  }
+
+  #img3_7{
+    width: 200px;
+    height: 300px;
+    margin-bottom: 20px;
+    border:6px solid #c92b3a ;
+  }
+
+  #img3_8{
+    width: 200px;
+    height: 300px;
+    margin-bottom: 20px;
+    border:6px solid #c92b3a ;
+  }
+
+  #sp7{
+    font-size: 24px; /* Adjust font size as needed */
+    width: 100%;
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #fe2c2c;
+    font-weight: 500;
+    padding-bottom: 40px;
+  }
+
+
