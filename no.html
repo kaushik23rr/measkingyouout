@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)https://me-asking-you-out.000webhostapp.com/no.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./mainfiles/no_files/style2.css">
+</head>
+<body>
+    <span id="qt1">You mean <b>YES</b> right?</span>
+    <span id="qt2"> RIGHT?!?</span>
+    <span id="qt4"> RIGHT?!?</span>
+    <div class="content">
+        <span id="qt3"> CLICK ME</span>
+        <img id="yesButton" src="./mainfiles/no_files/heart.gif">
+        <img id="anim1" src="./mainfiles/no_files/anim1.gif">
+    </div>
+    
+
+    <div id="loading-overlay">
+        <div id="load-content">
+            <span id="text1">Yeah thats what i thought</span>
+            <span id="text2">GOOD GIRL</span>
+            <img id="catgif" src="./mainfiles/no_files/cute-cat.gif">
+            <span class="blinking-word">LOADING</span>
+            <img id="load" src="./mainfiles/no_files/loader.gif">
+        </div>
+    </div>
+
+
+
+    <script>
+        document.getElementById('yesButton').addEventListener('click', function() {
+            document.getElementById('loading-overlay').style.display = 'block';
+            setTimeout(function() {
+                window.location.href = 'yes.html';
+            }, 3500);
+        });
+    </script>
+</body></html>
